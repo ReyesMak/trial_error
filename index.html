@@ -1,96 +1,110 @@
-<!-- Figma link: https://www.figma.com/file/u4CIOeWh2RINueISiXfqvQ/Dreamworksbnb-Copy?node-id=0%3A1 -->
+<!-- Bootstrap
+Bootstrap Grid
+Bootstrap Borders
+Bootstrap Responsive Breakpoints -->
+
 
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Dreamworksbnb</title>
+	<title>Dreamworkbnb</title>
+	<!-- CSS connection -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Link to Google Fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;700&display=swap" rel="stylesheet">
+	<!-- Bootstrap CSS Link -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
-
-	<div>
-		<img src="homepage_logo.png">
-		<img src="homepage_banner2.jpeg">
-		<h1>The<br>Greatest<br>Outdoors</h1>
-		<h2>Get Inspired</h2>
-		<div>
-			<img src="menu.png">
-			<img src="user.png">
-		</div>
+	<div id="topbanner">
+		<img id="logo" src="homepage_logo.png">
+		<img id="banner" src="homepage_banner2.jpeg">
 	</div>
 
 	<h2>Live anywhere</h2>
 
-	<div>
-		<div>
-			<img src="homepage_croods.jpeg">
-			<p>The Crood's Treehouse</p>
-		</div>
-		<div>
-			<img src="homepage_trolls.jpeg">
-			<p>Trolls' Village</p>
-		</div>
-		<div>
-			<img src="homepage_shrek.jpeg">
-			<p>Shrek's Swamp</p>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-md-6 col-lg-4">
+				<img class="place" src="homepage_croods.jpeg">
+				<p class="title">The Crood's Treehouse</p>
+				<p class="description">After leaving their cave, the croods discover the treehouse, which is owned the Bettermans. There are lifts, an open view that you can sit on a sofa to watch birds outside and food is planted and grown perfectly. Traps are set to capture animals as a food source too. The enormous place is filled with passion and kindness.</p>
+			</div>
+			<div class="col-xs-12 col-md-6 col-lg-4">
+				<img class="place" src="homepage_trolls.jpeg">
+				<p class="title">Trolls' Village</p>
+				<p class="description">Immerse with happiness, the welcoming Trolls' village has the perfect sense in music and dance. If you are in a stressful mood and need someplace to chill and relax, check Troll's Village out and all the burden will just disappear. With Poppy as the leader, everything will be fine. Come and feel the magic!</p>
+			</div>
+			<div class="col-xs-12 col-md-6 col-lg-4">
+				<img class="place" src="homepage_shrek.jpeg">
+				<p class="title">Shrek's Swamp</p>
+				<p class="description">Lived by Shrek, this place attracts many well-known fairtales characters. You can have the most unique experience with the mud shower. Also, two large beds can be found in the main room, as well as the kitchen and dining area. You will have the chance to show off your cooking skills and try to make some legendary friends!</p>
+			</div>
 		</div>
 	</div>
 
-	<div>
-		<img src="homepage_croods3.jpeg">
-		<h3>Become a Host</h2>
-		<h4>
-			Earn extra income<br>
-			and share your space
-		</h4>
-		<p>Learn More</p>
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<img id="banner2" src="homepage_croods3.jpeg">
+			</div>
+		</div>
 	</div>
 
 	<h2>Discover Experiences</h2>
 
-	<div>
-		<div>
-			<img src="homepage_abominable.jpeg">
-			<p>Learn how to play violin <br> with Yi and Everest</p>
-		</div>
-		<div>
-			<img src="homepage_toothless.jpeg">
-			<p>Ride with Berk's fastest <br> dragons Toothless & Lightfury</p>
-		</div>
-		<div>
-			<img src="homepage_croods2.jpeg">
-			<p>Hunt for food with the <br> Croods Family</p>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-md-6 col-lg-4">
+				<img class="place" src="homepage_abominable.jpeg">
+				<p class="title">Learn how to play violin <br> with Yi and Everest</p>
+				<p class="description">Yi's violin has the best calming and soothing tone and Everest knows what is the best to do with its voice. While you learn how to play the violin, Everest will be the accompaniment of your music. Enjoy the harmony and improve your violin skills with them!</p>
+			</div>
+			<div class="col-xs-12 col-md-6 col-lg-4">
+				<img class="place" src="homepage_toothless.jpeg">
+				<p class="title">Ride with Berk's fastest <br> dragons Toothless & Lightfury</p>
+				<p class="description">With Hiccup's help, the lovely dragons will take you up in the sky and you will surely have a taste of the super speed and relentless wind. The remarkable flying will definitely be unforgettable. For sure, tips to train and get along with the dragons will be your biggest takeaway. Don't be afraid and challenge yourself! </p>
+			</div>
+			<div class="col-xs-12 col-md-6 col-lg-4">
+				<img class="place" src="homepage_croods2.jpeg">
+				<p class="title">Hunt for food with the <br> Croods Family</p>
+				<p class="description">With Hiccup's help, the lovely dragons will take you up in the sky and you will surely have a taste of the super speed and relentless wind. The remarkable flying will definitely be unforgettable. For sure, tips to train and get along with the dragons will be your biggest takeaway. Don't be afraid and challenge yourself! </p>
+			</div>
 		</div>
 	</div>
 
 	<h2>Inspiration for future getaways</h2>
 
-	<div>
-		<div>
-			<!-- KP - HTML Syntax (II) -->
-			<!-- unordered lists -->
-			<ul>
-				<li>Shrek <br> Far Far Away</li>
-				<li>Boss Baby <br> Baby Corp</li>
-				<li>Madagascar <br> Central Park Zoo</li>
-				<li>Trolls <br> Bergen Town</li>
-			</ul>
-		</div>
-		<div>
-			<!-- ordered lists -->
-			<ol>
-				<li>Kung Fu Panda <br> Guangxi, China</li>
-				<li>The Croods <br> Cave</li>
-				<li>Megamind <br> Metro City</li>
-				<li>Turbo <br> San Fernando Valley</li>
-			</ol>
-		</div>
-		<div>
-			<ol>
-				<li>Abominable <br> Mount Everest</li>
-				<li>Bee <br> Central Park</li>
-				<li>Puss in Boots <br> Bangalore</li>
-				<li>Monsters vs. Aliens <br> California</li>
-			</ol>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-4 col-md-4 col-lg-4">
+				<!-- KP - HTML Syntax (II) -->
+				<!-- unordered lists -->
+				<ul>
+					<li>Toy Story <br> Ohio, USA</li>
+					<li>A Bug's Life <br> Ant Island</li>
+					<li>Finding Nemo <br> Sydney, Australia</li>
+					<li>Cars <br> Route 66, Arizona</li>
+				</ul>
+			</div>
+			<div class="col-xs-4 col-md-4 col-lg-4">
+				<!-- ordered lists -->
+				<ol>
+					<li>Ratatouille <br> Paris, France</li>
+					<li>Brave <br> Scotland</li>
+					<li>Onward <br> New Mushroomton</li>
+					<li>Soul <br> New York City, USA</li>
+				</ol>
+			</div>
+			<div class="col-xs-4 col-md-4 col-lg-4">
+				<ol>
+					<li>Luca <br> Italian Rivera</li>
+					<li>Coco <br> Santa Cecelia, Mexico</li>
+					<li>The Good Dinosaur <br> North America, Pangae</li>
+					<li>Up <br> Angel Falls, South America</li>
+				</ol>
+			</div>
 		</div>
 	</div>
 </body>
